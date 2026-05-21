@@ -28,21 +28,57 @@ public class DialogueManager : MonoBehaviour
     [Header("Settings")]
     public float textSpeed = 0.03f;
 
-    [YarnCommand("background")]
+    private DialogueRunner dialogueRunner;
+    private Coroutine typingCoroutine;
+
+    void Awake()
+    {
+        dialogueRunner = GetComponent<DialogueRunner>();
+        dialogueRunner.AddCommandHandler<string>("background", SetBackground);
+        dialogueRunner.AddCommandHandler<string>("portrait", SetPortrait);
+    }
+
     public void SetBackground(string bgName)
     {
+        StartCoroutine(FadeBackground(bgName));
+    }
+
+    private IEnumerator FadeBackground(string bgName)
+    {
+        float duration = 0.5f;
+        float elapsed = 0f;
+        Color color = backgroundImage.color;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            color.a = Mathf.Lerp(1f, 0f, elapsed / duration);
+            backgroundImage.color = color;
+            yield return null;
+        }
+
         for (int i = 0; i < backgroundNames.Length; i++)
         {
             if (backgroundNames[i] == bgName)
             {
                 backgroundImage.sprite = backgrounds[i];
-                return;
+                break;
             }
         }
-        Debug.LogWarning("Background tidak ditemukan: " + bgName);
+
+        elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            color.a = Mathf.Lerp(0f, 1f, elapsed / duration);
+            backgroundImage.color = color;
+            yield return null;
+        }
+
+        color.a = 1f;
+        backgroundImage.color = color;
     }
 
-    [YarnCommand("portrait")]
     public void SetPortrait(string portraitName)
     {
         if (portraitName == "none")
@@ -63,22 +99,17 @@ public class DialogueManager : MonoBehaviour
         Debug.LogWarning("Portrait tidak ditemukan: " + portraitName);
     }
 
-    private Coroutine typingCoroutine;
-
-    // Dipanggil Yarn saat dialog mulai
     public void StartDialogue()
     {
         dialoguePanel.SetActive(true);
     }
 
-    // Dipanggil Yarn saat dialog selesai
     public void EndDialogue()
     {
         dialoguePanel.SetActive(false);
         choicePanel.SetActive(false);
     }
 
-    // Menampilkan teks dengan efek mengetik
     public void ShowLine(string characterName, string line)
     {
         characterNameText.text = characterName;
@@ -99,16 +130,13 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Menampilkan pilihan
     public void ShowChoices(string[] choices, System.Action<int> onChoiceSelected)
     {
         choicePanel.SetActive(true);
 
-        // Bersihkan tombol lama
         foreach (Transform child in choicePanel.transform)
             Destroy(child.gameObject);
 
-        // Buat tombol baru untuk setiap pilihan
         for (int i = 0; i < choices.Length; i++)
         {
             int index = i;
@@ -122,13 +150,11 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Ganti background
     public void ChangeBackground(Sprite newBackground)
     {
         backgroundImage.sprite = newBackground;
     }
 
-    // Ganti portrait karakter
     public void ChangePortrait(Sprite newPortrait)
     {
         characterPortrait.sprite = newPortrait;

@@ -1,18 +1,11 @@
 ﻿title: Babak1_Prolog
 tags:
 ---
-// ===== BABAK 1: PROLOG =====
+<<background "rs_blur">>
 
-<<set $hapus_ponsel = false>>
-<<set $hapus_film = false>>
-<<set $hapus_kucing = false>>
-
-narrator: "Stadium empat. Kata-kata dokter itu terus berputar seperti kaset rusak di kepalaku. Dunia seolah berhenti berputar tepat di depan wajahku."
-
-// <<background "rs_blur">>
+narrator: "Stadium empat. Kata-kata dokter itu terus berputar seperti kaset rusak di kepalaku."
 
 narrator: "Kenapa aku? Kenapa harus sekarang? Jika aku harus lenyap, maka biarkan dunia ini ikut lenyap bersamaku!"
 
-// <<fadein>>
 <<jump Babak2_Day1>>
 ===
