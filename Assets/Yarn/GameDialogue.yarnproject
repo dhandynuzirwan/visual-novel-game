@@ -1,0 +1,14 @@
+{
+  "projectFileVersion": 4,
+  "sourceFiles": [
+    "Babak1.yarn",
+    "Babak2.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*",
+    "./Samples/Yarn Spinner*/*"
+  ],
+  "localisation": {},
+  "baseLanguage": "en",
+  "compilerOptions": {}
+}

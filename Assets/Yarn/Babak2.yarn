@@ -1,0 +1,43 @@
+﻿title: Babak2_Day1
+tags:
+---
+// ===== BABAK 2: DAY 1 =====
+
+// <<background "kamar_mc">>
+
+MC: Siapa kau? Kenapa wajahmu... persis sepertiku?
+Aloha: Aku juga tidak tahu siapa aku. Coba tebak.
+MC: Doppelganger? Malaikat maut?
+Aloha: Aku adalah Iblis.
+MC: Iblis?! Apa maumu?
+Aloha: Sisa hidupmu tidak sampai sehari lagi. Apa kau akan menyerah begitu saja? Aku menawarkan Big Chance.
+Aloha: Aku bisa menambah umurmu satu hari, untuk setiap satu benda yang kau hilangkan dari dunia ini.
+Aloha: Prinsipnya mudah: untuk memperoleh sesuatu, kau harus siap kehilangan sesuatu. Transaksi sederhana, bukan?
+MC: Baiklah, aku setuju. Aku mau menghilangkan... jamur di kamar mandi, atau bangkai tikus di loteng!
+Aloha: Kau pikir aku tukang bersih-bersih? Aku yang menentukan. Tergantung suasana hatiku.
+
+// <<background "meja_cokelat">>
+
+Aloha: Mari kita mulai dengan... Cokelat. Kau setuju?
+
+-> YA
+    <<set $cokelat_hilang = false>>
+    <<jump Babak2_CokelatLanjut>>
+===
+
+title: Babak2_CokelatLanjut
+tags:
+---
+// <<portrait "aloha_tertawa">>
+Aloha: Hmm! Manis, pahit, dan meleleh sempurna! Aku berubah pikiran.
+Aloha: Cokelat tetap ada, tapi kau tetap kuberi satu hari tambahan karena kau sudah menghiburku. Sampai jumpa besok!
+
+narrator: Aku teringat dahulu ibu sering memberiku cokelat ketika aku sedih.
+
+// <<background "kamar_mc">>
+// <<portrait "mc_sedih">>
+
+narrator: Teman sekamarku adalah seekor kucing. Namanya Kubis.
+
+// <<jump Babak3_Flashback>>
+===
