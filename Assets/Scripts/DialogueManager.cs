@@ -34,6 +34,8 @@ public class DialogueManager : MonoBehaviour
     void Awake()
     {
         dialogueRunner = GetComponent<DialogueRunner>();
+        dialogueRunner.AddCommandHandler("goto_ending", GoToEnding);
+        dialogueRunner.AddCommandHandler("goto_menu", GoToMenu);
         dialogueRunner.AddCommandHandler<string>("background", SetBackground);
         dialogueRunner.AddCommandHandler<string>("portrait", SetPortrait);
     }
@@ -117,6 +119,16 @@ public class DialogueManager : MonoBehaviour
         choicePanel.SetActive(false);
     }
 
+    public void GoToEnding()
+    {
+        GameSceneManager.Instance.GoToEnding();
+    }
+
+    public void GoToMenu()
+    {
+        GameSceneManager.Instance.GoToMainMenu();
+    }
+
     public void ShowLine(string characterName, string line)
     {
         characterNameText.text = characterName;
@@ -139,6 +151,8 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowChoices(string[] choices, System.Action<int> onChoiceSelected)
     {
+        Debug.Log("ShowChoices dipanggil! Jumlah pilihan: " + choices.Length);
+        //choicePanel.SetActive(true);
         choicePanel.SetActive(true);
 
         foreach (Transform child in choicePanel.transform)
