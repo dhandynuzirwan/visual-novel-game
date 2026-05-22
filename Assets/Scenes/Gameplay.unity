@@ -960,7 +960,7 @@ MonoBehaviour:
   - {fileID: -5730983187046561267, guid: bf8a39542230dc04fa72720b52df5b55, type: 3}
   backgroundNames:
   - rs_blur
-  - rs_blur
+  - bedroom noon
   portraits: []
   portraitNames: []
   characterNameText: {fileID: 354180349}
