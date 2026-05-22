@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 323e3828851ba4241880e033742c3d3e
+guid: 1121aeacd667e7e42a70a6420fee8de7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3678510172490313044
-    second: EKSPRESI_MC_0
-  - first:
-      213: 789553618879667579
-    second: EKSPRESI_MC_1
-  - first:
-      213: -5452734991787406810
-    second: EKSPRESI_MC_2
-  - first:
-      213: -9081194986533136485
-    second: EKSPRESI_MC_3
-  - first:
-      213: 7077389451785586347
-    second: EKSPRESI_MC_4
+      213: 6246130714090248126
+    second: black_screen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,79 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EKSPRESI_MC_0
+      name: black_screen_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 418
-        width: 186
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca2dd0adc7e43fcc0800000000000000
-      internalID: -3678510172490313044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EKSPRESI_MC_1
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 418
-        width: 188
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7d527845de05fa00800000000000000
-      internalID: 789553618879667579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EKSPRESI_MC_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 242
-        width: 195
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62a4b203a6ef354b0800000000000000
-      internalID: -5452734991787406810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EKSPRESI_MC_3
-      rect:
-        serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 191
-        height: 238
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9752a3264d19f180800000000000000
-      internalID: -9081194986533136485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EKSPRESI_MC_4
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 0
-        width: 188
-        height: 235
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba6c6c27530f73260800000000000000
-      internalID: 7077389451785586347
+      spriteID: eb791028ac6bea650800000000000000
+      internalID: 6246130714090248126
       vertices: []
       indices: 
       edges: []
@@ -235,11 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EKSPRESI_MC_0: -3678510172490313044
-      EKSPRESI_MC_1: 789553618879667579
-      EKSPRESI_MC_2: -5452734991787406810
-      EKSPRESI_MC_3: -9081194986533136485
-      EKSPRESI_MC_4: 7077389451785586347
+      black_screen_0: 6246130714090248126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

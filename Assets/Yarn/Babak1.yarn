@@ -1,11 +1,22 @@
 ﻿title: Babak1_Prolog
 tags:
 ---
+<<background "black_screen">>
+<<portrait "none">>
+
+narrator: "Stadium empat. Kata-kata dokter itu terus berputar seperti kaset rusak di kepalaku. Dunia seolah berhenti berputar tepat di depan wajahku."
+
 <<background "rs_blur">>
 
-narrator: "Stadium empat. Kata-kata dokter itu terus berputar seperti kaset rusak di kepalaku."
-
 narrator: "Kenapa aku? Kenapa harus sekarang? Jika aku harus lenyap, maka biarkan dunia ini ikut lenyap bersamaku!"
+
+<<background "rs_corridor">>
+
+narrator : *Argh.. Arghh.. (Terengah engah)
+
+<<background "bridge_sunset">>
+
+narrator : ..... (bingung)
 
 <<jump Babak2_Day1>>
 ===

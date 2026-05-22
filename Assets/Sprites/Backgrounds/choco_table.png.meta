@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1c1711bc31ef9d642bef0a84a5fdc3ed
+guid: 9dc9446feb50ea844858e84fc1f36b1c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -244717096676793065
-    second: MCGK1_EKSPRESI_0
+      213: -607739392640281457
+    second: choco_table_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MCGK1_EKSPRESI_0
+      name: choco_table_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 0
-        width: 374
-        height: 583
+        width: 1402
+        height: 1122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7156d1ed8179a9cf0800000000000000
-      internalID: -244717096676793065
+      spriteID: f841aa90e30e097f0800000000000000
+      internalID: -607739392640281457
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MCGK1_EKSPRESI_0: -244717096676793065
+      choco_table_0: -607739392640281457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

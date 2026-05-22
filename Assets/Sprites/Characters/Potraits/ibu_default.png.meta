@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a8cfaf65e7e1fe246901883cfef7762a
+guid: 12b09ba66638a904e9d49ee8c7d26e09
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8272863617353741605
-    second: MANTAN_POTRET_0
+      213: -5769741646523524296
+    second: ibu_default_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MANTAN_POTRET_0
+      name: ibu_default_0
       rect:
         serializedVersion: 2
-        x: 30
+        x: 96
         y: 0
-        width: 469
-        height: 494
+        width: 312
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bda806c1f52e03d80800000000000000
-      internalID: -8272863617353741605
+      spriteID: 83b1039ba82cdefa0800000000000000
+      internalID: -5769741646523524296
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MANTAN_POTRET_0: -8272863617353741605
+      ibu_default_0: -5769741646523524296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

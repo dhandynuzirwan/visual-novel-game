@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 878ab39e23b05564d900c1b20ceb9706
+guid: a67523b418d2939488d0ccd4a67f1377
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2102245376673939413
-    second: EKSPRESI_TSUTAYA_0
-  - first:
-      213: -1267207919370216960
-    second: EKSPRESI_TSUTAYA_1
-  - first:
-      213: -6085835324303494907
-    second: EKSPRESI_TSUTAYA_2
+      213: -8723071695204815381
+    second: mantan_default_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EKSPRESI_TSUTAYA_0
+      name: mantan_default_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 183
-        width: 129
-        height: 259
+        x: 30
+        y: 0
+        width: 469
+        height: 494
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2084a4d7f253d2e0800000000000000
-      internalID: -2102245376673939413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EKSPRESI_TSUTAYA_1
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 183
-        width: 129
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00a506d7c19f96ee0800000000000000
-      internalID: -1267207919370216960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EKSPRESI_TSUTAYA_2
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 183
-        width: 130
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 501bd554405ca8ba0800000000000000
-      internalID: -6085835324303494907
+      spriteID: bed6d01928c61f680800000000000000
+      internalID: -8723071695204815381
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EKSPRESI_TSUTAYA_0: -2102245376673939413
-      EKSPRESI_TSUTAYA_1: -1267207919370216960
-      EKSPRESI_TSUTAYA_2: -6085835324303494907
+      mantan_default_0: -8723071695204815381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

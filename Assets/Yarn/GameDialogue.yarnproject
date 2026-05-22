@@ -2,7 +2,8 @@
   "projectFileVersion": 4,
   "sourceFiles": [
     "Babak1.yarn",
-    "Babak2.yarn"
+    "Babak2.yarn",
+    "Babak3.yarn"
   ],
   "excludeFiles": [
     "**/*~/*",

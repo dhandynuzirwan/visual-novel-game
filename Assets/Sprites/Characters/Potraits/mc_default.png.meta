@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d16269e0c79389342b52165dd9c223e7
+guid: 5a164a98a82a32f4897c6174e9e0868a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5485920073520879308
-    second: KUBIS_POTRET_0
+      213: -3652305303559816976
+    second: mc_default_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KUBIS_POTRET_0
+      name: mc_default_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 52
-        width: 311
-        height: 550
+        x: 1
+        y: 0
+        width: 406
+        height: 558
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc69560cd37e12c40800000000000000
-      internalID: 5485920073520879308
+      spriteID: 0f8ba0a5da7605dc0800000000000000
+      internalID: -3652305303559816976
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      KUBIS_POTRET_0: 5485920073520879308
+      mc_default_0: -3652305303559816976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

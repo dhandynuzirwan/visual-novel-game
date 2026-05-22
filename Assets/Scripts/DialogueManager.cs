@@ -87,6 +87,13 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        // Posisi karakter berdasarkan nama
+        RectTransform rt = characterPortrait.GetComponent<RectTransform>();
+        if (portraitName.StartsWith("aloha"))
+            rt.anchoredPosition = new Vector2(400, 100);  // kanan
+        else
+            rt.anchoredPosition = new Vector2(-400, 100); // kiri
+
         for (int i = 0; i < portraitNames.Length; i++)
         {
             if (portraitNames[i] == portraitName)

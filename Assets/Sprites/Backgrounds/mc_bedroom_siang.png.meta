@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8ebdd5f549aa4c54898c6325287fd8b4
+guid: fb3dc528860cb4e45912cf369df8233e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8260312148581430311
-    second: TSUTAYA_POTRET_0
+      213: -2083347634660788084
+    second: mc_bedroom_siang_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TSUTAYA_POTRET_0
+      name: mc_bedroom_siang_0
       rect:
         serializedVersion: 2
-        x: 57
+        x: 0
         y: 0
-        width: 316
-        height: 605
+        width: 1402
+        height: 1122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7243a06522682a270800000000000000
-      internalID: 8260312148581430311
+      spriteID: c88b4644d567613e0800000000000000
+      internalID: -2083347634660788084
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TSUTAYA_POTRET_0: 8260312148581430311
+      mc_bedroom_siang_0: -2083347634660788084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

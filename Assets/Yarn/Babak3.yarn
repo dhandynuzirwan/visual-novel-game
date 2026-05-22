@@ -1,0 +1,20 @@
+﻿title: Babak3_Flashback
+tags:
+---
+<<background "flashback_sepia">>
+<<portrait "kubis_default">>
+
+narrator: Kucing itu dinamai Selada. Ibu sebenarnya tidak suka hewan, tapi dia tidak bisa membiarkan anak kucing itu mati kedinginan.
+
+<<portrait "ibu_default">>
+Ibu : Anak inilah yang memilihku. 
+
+<<portrait "none">>
+narrator : Meskipun dia terus bersin karena alergi, Ibu tidak pernah melepaskannya.
+narrator: Ibu sering menceritakan aturan dunia: kebahagiaan seseorang seringkali terbentuk di atas kemalangan orang lain.
+narrator: Selada hidup 11 tahun sebelum tumor merenggutnya. Ibu hancur saat itu.
+narrator: Kubis adalah alasan Ibu kembali tersenyum. Namun takdir memang kejam; Ibu meninggal karena penyakit yang sama.
+narrator: Pesan terakhirnya singkat: Rawatlah Kubis sebaik mungkin. Kini, hanya Kubis yang menghubungkanku dengan kenangan tentang Ibu.
+
+// <<jump Babak4_Day2>>
+===

@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: cbd0dbf33548cb7459c7e269bb97c73a
+guid: cc4a3f885c0d8934c9b40bf592f2c8b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5272119432173990688
-    second: MCGK_EKSPRESI_0
-  - first:
-      213: -5575333853591939803
-    second: MCGK_EKSPRESI_1
-  - first:
-      213: -6507863435575139003
-    second: MCGK_EKSPRESI_2
+      213: 4568373926650117816
+    second: bridge_sunset_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,57 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MCGK_EKSPRESI_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 369
-        width: 172
-        height: 284
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0233a20d0b45a2940800000000000000
-      internalID: 5272119432173990688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGK_EKSPRESI_1
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 369
-        width: 176
-        height: 284
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5255178466f60a2b0800000000000000
-      internalID: -5575333853591939803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGK_EKSPRESI_2
+      name: bridge_sunset_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 377
-        height: 314
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5456acb7fac6fa5a0800000000000000
-      internalID: -6507863435575139003
+      spriteID: 8bef22bc1ef166f30800000000000000
+      internalID: 4568373926650117816
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MCGK_EKSPRESI_0: 5272119432173990688
-      MCGK_EKSPRESI_1: -5575333853591939803
-      MCGK_EKSPRESI_2: -6507863435575139003
+      bridge_sunset_0: 4568373926650117816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

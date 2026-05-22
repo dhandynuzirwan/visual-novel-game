@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dde85fc5b26f3634b8b45c35841301db
+guid: 8e4de368d1660144b84073271d089b0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1042873286965703045
-    second: Aloha_Cklt_0
+      213: -2112347572042930097
+    second: rs_corridor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Aloha_Cklt_0
+      name: rs_corridor_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 408
-        height: 570
+        width: 1402
+        height: 1122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 581b557aab7097e00800000000000000
-      internalID: 1042873286965703045
+      spriteID: f48e83e231f6fa2e0800000000000000
+      internalID: -2112347572042930097
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Aloha_Cklt_0: 1042873286965703045
+      rs_corridor_0: -2112347572042930097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

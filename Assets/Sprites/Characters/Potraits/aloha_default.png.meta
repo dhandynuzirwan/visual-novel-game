@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8276d32eb875f8444ac7b324369d1aeb
+guid: cd6e08ea7a971b542ac160ec6db57b6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2452135151907956547
-    second: BAPAK_POTRET_0
+      213: 6739863035660730057
+    second: aloha_default_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BAPAK_POTRET_0
+      name: aloha_default_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 408
-        height: 590
+        height: 558
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 347e8bebdebb70220800000000000000
-      internalID: 2452135151907956547
+      spriteID: 9cef75bb8bdc88d50800000000000000
+      internalID: 6739863035660730057
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BAPAK_POTRET_0: 2452135151907956547
+      aloha_default_0: 6739863035660730057
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

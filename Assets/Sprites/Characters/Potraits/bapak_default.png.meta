@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dbe7e9df18672d34a8ff6e6eab1aa387
+guid: e5fc659aff4ed5941b834b0a37a22349
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4811991157027933270
-    second: IBU_KUBIS_0
+      213: -2193807086631827661
+    second: bapak_default_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IBU_KUBIS_0
+      name: bapak_default_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 367
-        height: 603
+        width: 408
+        height: 590
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65c88f85670a7c240800000000000000
-      internalID: 4811991157027933270
+      spriteID: 3374397f3180e81e0800000000000000
+      internalID: -2193807086631827661
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IBU_KUBIS_0: 4811991157027933270
+      bapak_default_0: -2193807086631827661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
