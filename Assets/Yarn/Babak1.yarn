@@ -3,23 +3,21 @@ tags:
 ---
 <<background "black_screen">>
 <<portrait "none">>
-
+// <<play_audio "mesin_ketik">>
 narrator: "Stadium empat. Kata-kata dokter itu terus berputar seperti kaset rusak di kepalaku. Dunia seolah berhenti berputar tepat di depan wajahku."
 
 <<background "rs_blur">>
-
 narrator: "Kenapa aku? Kenapa harus sekarang? Jika aku harus lenyap, maka biarkan dunia ini ikut lenyap bersamaku!"
 
 <<background "rs_corridor">>
-
-narrator : *Argh.. Arghh.. (Terengah engah)
+narrator: *Argh.. Arghh.. (Terengah engah)*
 
 <<background "bridge_sunset">>
-
-narrator : ..... (bingung)
+// <<vibrate_camera>>
+// <<play_audio "detak_jantung">>
+narrator: ..... (bingung)
 
 <<jump Babak2_Day1>>
-
 ===
 
 title: Babak2_Day1
@@ -27,14 +25,13 @@ tags:
 ---
 <<background "mc_bedroom_siang">>
 <<portrait "none">>
-
 narrator: Ternyata itu hanya khayalan konyol. Semua itu hanya terjadi di kepalaku yang terus berputar dengan rasa sakit yang datang perlahan.
 
 <<portrait "mc_default">>
 MC: Siapa kau? Kenapa wajahmu... persis sepertiku?
 
 <<portrait "aloha_default">>
-Aloha: Tersenyum menyeringai. Aku juga tidak tahu siapa aku. Coba tebak.
+Aloha: (Tersenyum menyeringai) Aku juga tidak tahu siapa aku. Coba tebak.
 
 <<portrait "mc_default">>
 MC: Doppelganger? Malaikat maut?
@@ -51,20 +48,16 @@ Aloha: Prinsipnya mudah: untuk memperoleh sesuatu, kau harus siap kehilangan ses
 
 <<portrait "mc_default">>
 narrator: MC mondar-mandir dengan gelisah sambil menggendong kucingnya.
-
 MC: Baiklah, aku setuju. Aku mau menghilangkan... jamur di kamar mandi, atau bangkai tikus di loteng!
 
 <<portrait "aloha_default">>
-Aloha: Tertawa lepas. Kau pikir aku tukang bersih-bersih? Aku yang menentukan. Tergantung suasana hatiku.
+Aloha: (Tertawa lepas) Kau pikir aku tukang bersih-bersih? Aku yang menentukan. Tergantung suasana hatiku.
 
 <<background "choco_table">>
-
 narrator: Aloha mengambil kotak cokelat dari meja.
-
 Aloha: Mari kita mulai dengan... Cokelat. Kau setuju?
 
 <<portrait "none">>
-
 -> YA
     <<jump Babak2_CokelatLanjut>>
 ===
@@ -72,33 +65,31 @@ Aloha: Mari kita mulai dengan... Cokelat. Kau setuju?
 title: Babak2_CokelatLanjut
 tags:
 ---
-<<portrait "aloha_default">>
+<<portrait "aloha_coklat">>
+// <<play_audio "crinkle">>
 narrator: Aloha memakan cokelat itu dengan sangat nikmat.
-
 Aloha: Hmm! Manis, pahit, dan meleleh sempurna! Aku berubah pikiran. Aku terlalu menyukai ini. Cokelat tetap ada, tapi kau tetap kuberi satu hari tambahan karena kau sudah menghiburku. Sampai jumpa besok!
 
-<<portrait "mc_default">>
+<<portrait "mc_kubis">>
 narrator: Aku teringat dahulu ibu sering memberiku cokelat ketika aku sedih. Jika cokelat benar-benar hilang, aku tidak bisa membayangkannya.
-
 narrator: MC mengelus kucingnya di kamar.
-
 narrator: Teman sekamarku adalah seekor kucing. Belum punya nama. Tidak, ia punya. Nama kucingku ialah Kubis. Barangkali kau lupa aku akan menceritakan tentangnya.
 
 <<jump Babak3_Flashback>>
 ===
+
 title: Babak3_Flashback
 tags:
 ---
 <<background "flashback_sepia">>
 <<portrait "kubis_default">>
-
 narrator: Kucing itu dinamai Selada. Ibu sebenarnya tidak suka hewan, tapi dia tidak bisa membiarkan anak kucing itu mati kedinginan.
 
 <<portrait "ibu_default">>
-Ibu : Anak inilah yang memilihku. 
+Ibu: Anak inilah yang memilihku. 
 
-<<portrait "none">>
-narrator : Meskipun dia terus bersin karena alergi, Ibu tidak pernah melepaskannya.
+<<portrait "ibu_kubis">>
+narrator: Meskipun dia terus bersin karena alergi, Ibu tidak pernah melepaskannya.
 narrator: Ibu sering menceritakan aturan dunia: kebahagiaan seseorang seringkali terbentuk di atas kemalangan orang lain.
 narrator: Selada hidup 11 tahun sebelum tumor merenggutnya. Ibu hancur saat itu.
 narrator: Kubis adalah alasan Ibu kembali tersenyum. Namun takdir memang kejam; Ibu meninggal karena penyakit yang sama.
@@ -110,8 +101,9 @@ narrator: Pesan terakhirnya singkat: Rawatlah Kubis sebaik mungkin. Kini, hanya 
 title: Babak4_Day2
 tags:
 ---
-<<background "mc_bedroom_pagi">>
+<<background "phone_call">>
 <<portrait "none">>
+// <<play_audio "ponsel_getar">>
 narrator: Pagi hari. Ponsel di meja bergetar hebat. Nama "Kepala Kantor Pos" muncul di layar.
 
 <<portrait "aloha_default">>
@@ -125,22 +117,21 @@ Aloha: Semua orang selalu penuh keraguan di saat terakhir. Baiklah, aku beri sat
 
 <<portrait "none">>
 narrator: Aku bimbang antara menelepon ayahku atau orang lain. Setelah pusing, akhirnya aku memutuskan menelepon Mantan Kekasihku.
-
 narrator: Apakah kamu akan menghilangkan ponsel dari dunia ini?
+
 -> YA
     <<jump Babak4_DuniaHening>>
 -> TIDAK
-    // <<jump Ending_Netral>>
+    <<jump Ending_Netral>>
 ===
+
 title: Babak4_DuniaHening
 tags:
 ---
 <<background "train_interior">>
 <<portrait "none">>
 narrator: Akhirnya aku berbicara dan mengajak mantanku bertemu. Jika dipikir-pikir dari dulu aku benci dengan yang namanya telepon terutama ponsel.
-
 narrator: Aku berada di dalam kereta api. Biasanya layar penuh dengan orang menatap ponsel, tapi kini orang-orang membaca buku, menatap jendela, atau sekadar melamun dengan wajah cerah.
-
 narrator: Hanya butuh dua puluh tahun bagi ponsel untuk menjajah manusia. Manusia menciptakan ponsel untuk mengusir sepi, tapi justru menjadi tawanan darinya. Tanpa ponsel, aku baru sadar betapa cemerlangnya dunia yang selama ini kulewatkan.
 
 <<background "square_clock_tower">>
@@ -148,7 +139,6 @@ narrator: Aku berdiri di lapangan luas dekat Menara Jam besar, memegang buku sak
 
 <<portrait "mantan_default">>
 narrator: Mantan pacarku datang berlari kecil, napasnya terengah-engah, wajahnya pucat karena khawatir.
-
 Mantan: Kau tidak apa-apa? Maaf aku terlambat, sulit sekali mencari tempat janjian tanpa... entahlah, aku merasa ada yang hilang tapi aku tidak tahu apa.
 
 <<portrait "mc_default">>
@@ -162,7 +152,7 @@ narrator: Kami duduk berhadapan di sebuah kafe, sambil memesan cokelat panas kes
 MC: Aku... mungkin akan mati tak lama lagi. Kanker.
 
 <<portrait "mantan_default">>
-Mantan: Tersenyum pahit. Kau terlihat tenang. Manusia memang aneh saat menghadapi kematian.
+Mantan: (Tersenyum pahit) Kau terlihat tenang. Manusia memang aneh saat menghadapi kematian.
 
 <<portrait "mc_default">>
 MC: Bisakah kau ceritakan kenapa kita putus? Aneh ya. Hanya hal itu yang ingin aku tanya untuk terakhir kalinya.
@@ -179,16 +169,12 @@ Mantan: Padahal minumannya ada di depan matamu... alasan kita putus juga semacam
 <<portrait "mc_default">>
 MC: Buenos Aires?
 
-<<background "flashback_sepia">>
+<<background "holiday">>
 <<portrait "none">>
 narrator: Selama 3 tahun pacaran kami tidak pernah meninggalkan kota kecil ini, selalu berputar di sekeliling kota atau hanya berbincang lewat telepon. Di saat itu telepon sangat penting bagiku. 
-
-narrator: Sebelum masuk kuliah kami merencanakan liburan ke Argentina ke suatu tempat yang bernama “Buenos Aires". Kita punya teman dekat di sana yang sangat akrab dan berjanji akan ketemu keesokan harinya untuk liburan bersama.
-
+narrator: Sebelum masuk kuliah kami merencanakan liburan ke Argentina ke suatu tempat yang bernama "Buenos Aires". Kita punya teman dekat di sana yang sangat akrab dan berjanji akan ketemu keesokan harinya untuk liburan bersama.
 narrator: Namun maut berkata lain, dia ditemukan meninggal karena kecelakaan. Kejadian itu menjadi trauma yang mendalam bagi kita, sejak saat itu kita tak lagi saling bicara.
-
-narrator: Kami kembali ke kota kecil tempat tinggal kami. Kami duduk di pesawat bersebelahan tanpa suara. Hanya kata “sampai jumpa” yang ia ucapkan, tak lama kami putus.
-
+narrator: Kami kembali ke kota kecil tempat tinggal kami. Kami duduk di pesawat bersebelahan tanpa suara. Hanya kata "sampai jumpa" yang ia ucapkan, tak lama kami putus.
 narrator: Aku berandai jika saja ada telepon di pesawat yang membuatku berani berbicara padanya hari itu, aku pasti akan menenangkan hatinya, dan bertanya apakah kami tidak akan berpisah?
 
 <<background "cafe_interior">>
@@ -210,17 +196,17 @@ Mantan: Sudah kuduga. Kuberi waktu sampai besok dan datanglah lagi ke sini besok
 <<background "bioskop_tua_depan">>
 <<portrait "none">>
 narrator: Tempat favoritnya? Aku mendongak dan melihat bioskop tua. Aku baru teringat bahwa bioskop lah tempat favoritnya.
-
 narrator: Aku meraba kantongku mencari ponsel untuk segera memberi jawabannya. Aku lupa aku sudah menghapusnya. Aku resah karena tak bisa langsung mengabarinya, resah karena tak sabar untuk menunggu hari esok.
-
 narrator: Tiba-tiba teringat olehku perkataan ibu “untuk memperoleh sesuatu, harus kehilangan sesuatu.” Sambil mengelus Selada di pangkuannya ibu berkata dengan lembut, "Kamu akan mati kan sebentar lagi". Kata-katanya menimpaku. Kepalaku sakit dan dadaku sesak.
 
+// <<glitch_effect>>
 <<jump Babak5_Day3>>
 ===
+
 title: Babak5_Day3
 tags:
 ---
-<<background "mc_bedroom_pagi">>
+<<background "mc_bedroom_siang">>
 <<portrait "aloha_default">>
 Aloha: Tampaknya kau kemarin bersenang-senang. Berikutnya, bagaimana kalau kita menghilangkan Film? Bayangkan dunia tanpa adegan-adegan palsu yang kau sukai itu.
 
@@ -241,8 +227,152 @@ narrator: Jika film lenyap, maka caraku bermimpi juga akan ikut terkubur. Apakah
     MC: Baiklah aku setuju menghapus film, tapi aku diberikan kesempatan terakhir kan untuk menonton film? Seperti sebelumnya.
     <<portrait "aloha_default">>
     Aloha: Yaa tentu saja.
-    // <<jump Babak5_TokoDvd>>
+    <<jump Babak5_TokoDvd>>
 -> TIDAK
-    // <<jump Ending_Alternatif>>
+    <<jump Ending_Netral>>
 ===
 
+title: Babak5_TokoDvd
+tags:
+---
+<<background "toko_dvd">>
+<<portrait "none">>
+narrator: Aku menghampiri Tsutaya dan menjelaskan bagaimana keadaanku. Dia sangat kaget dan sedih mendengarnya tapi ia mau membantuku mencari film.
+
+<<portrait "tsutaya_default">>
+Tsutaya: Ba..ba..bagaimana kalau ini?
+
+<<portrait "mc_default">>
+MC: Limelight ya? Boleh juga, aku menyukai film-film Chaplin tapi yang ini belum sempat aku tonton.
+MC: Jangan menangis Tsutaya. Ada cerita yang bagus dan ada seseorang yang bisa kuceritai. Bagiku sekarang, kamulah seseorang itu. 
+
+<<background "bioskop_tua_depan">>
+<<portrait "mantan_default">>
+Mantan: Kalau aku menonton film yang berakhir dengan sedih, aku pasti menonton ulang sekali lagi, kau tahu kenapa?
+
+<<portrait "mc_default">>
+MC: Aku tahu. Karena kamu pikir mungkin kali ini akan berakhir happy ending.
+
+<<portrait "mantan_default">>
+Mantan: (Tersenyum menyeka air mata) Kamu benar! May the force be with you!
+
+<<jump Babak7_Day4>>
+===
+
+title: Babak7_Day4
+tags:
+---
+<<background "mc_bedroom_siang">>
+// <<play_audio "burung_berkicau">>
+<<portrait "kubis_default">>
+Kubis: Sampai kapankah tidur terus, tuanku?
+
+<<portrait "mc_default">>
+MC: Hah?! Kubis? Kamu... bicara?!
+
+<<portrait "aloha_default">>
+Aloha: Kejutan! Bagus kan bonus dariku? Karena telepon dan film sudah hilang, kupikir kau butuh teman mengobrol.
+Aloha: Jam. Hari ini, Jam lenyap dari dunia.
+
+<<background "taman_bukit">>
+<<portrait "kubis_default">>
+Kubis: Ibu? Ibu itu siapakah gerangan, tuanku?
+
+<<portrait "mc_default">>
+MC: Ya, ibuku. Ibumu juga.
+
+<<portrait "none">>
+narrator: Aku terdiam. Kubis melupakan Ibu. Satu-satunya saksi hidup tentang kasih sayang Ibu telah kehilangan ingatannya. Apakah kelak aku juga akan hilang dari ingatannya?
+
+<<background "kamar_malam">>
+<<portrait "aloha_default">>
+Aloha: Sudah siap untuk hari esok? Aku sudah memutuskan apa yang akan kulenyapkan selanjutnya. Mari kita lenyapkan Kucing dari dunia!
+
+// <<play_audio "detak_jantung">>
+<<background "black_screen">>
+<<jump Babak8_Day5>>
+===
+
+title: Babak8_Day5
+tags:
+---
+<<background "kamar_malam">>
+<<portrait "none">>
+// <<play_audio "napas_memburu">>
+narrator: Aku terbangun dalam gelap. Kubis tidak ada di tempat biasanya. Jantungku berpacu, takut jika Iblis benar-benar merenggutnya.
+
+<<portrait "aloha_default">>
+Aloha: Maunya gimana? Kucing atau nyawamu? Bukan soal yang sulit, kan? Kalau kau mati, kau tak bisa menyayangi kucing lagi. Ambil keputusan sebelum matahari terbit!
+
+-> YA, Lenyapkan Kucing
+    <<jump Ending_Kesepian>>
+-> TIDAK, Pertahankan Kucing
+    <<jump TrueEnding_Surat>>
+===
+
+title: TrueEnding_Surat
+tags:
+---
+<<background "bioskop_tua_depan">>
+<<portrait "mantan_default">>
+Mantan: Aku kaget tiba-tiba Kubis datang mencariku. Kau menangis lagi, ya? Kebiasaanmu tidak berubah. Ini dari Ibu. Ia menitipkannya saat di RS.
+
+<<background "kamar_malam">>
+// <<play_audio "piano_melankolis">>
+<<portrait "none">>
+narrator: (Isi Surat Ibu) "Aku memikirkan 10 hal indah dalam dirimu untuk menggantikan 10 keinginan terakhirku. Jika kamu merasa sedih pejamkan matamu dan tersenyumlah perlahan."
+
+<<portrait "kubis_default">>
+Kubis: Gusti Patih, tidak usah menangis. Hilangkan saja kucing. Sahaya ingin Tuanku tetap hidup.
+
+<<portrait "mc_default">>
+MC: Tidak bisa, Kubis. Tidak akan.
+
+<<portrait "kubis_default">>
+Kubis: Sahaya paham isi hatimu. Kalau begitu, untuk terakhir kalinya... pejamkan matamu dan tersenyumlah. Itulah sihir Ibu.
+
+<<jump Babak9_Penerimaan>>
+===
+
+title: Babak9_Penerimaan
+tags:
+---
+<<background "mc_bedroom_siang">>
+<<portrait "aloha_default">>
+Aloha: Menukar nyawa demi seekor kucing? Kau konyol, tapi kau menang. Aku mengaku kalah pada 'sisi manusia' dalam dirimu.
+Aloha: Aku adalah wujud dari segala penyesalan dan keinginan terpendammu. Selamat tinggal, manusia menarik.
+
+<<jump BabakTerakhir>>
+===
+
+title: BabakTerakhir
+tags:
+---
+<<background "mc_bedroom_siang">>
+<<portrait "mc_default">>
+narrator: Perangko ini adalah bahasa rahasia Ayah. Lewat kepingan kertas ini, dia yang pendiam menceritakan dunia kepadaku.
+
+<<background "bridge_sunset">>
+// <<play_audio "suara_angin">>
+<<portrait "none">>
+narrator: Selama ini aku sibuk melarikan diri, padahal waktu adalah satu-satunya kesempatan yang aku punya untuk bilang: 'Ayah, aku sayang padamu.'
+MC: Aku datang, Ayah.
+===
+
+title: Ending_Netral
+tags:
+---
+<<background "black_screen">>
+<<portrait "none">>
+narrator: Aku menolak tawaran itu. Hari-hariku berakhir tanpa ada yang berubah, namun juga tanpa ada yang terselesaikan.
+narrator: BAD ENDING - Keputusasaan
+===
+
+title: Ending_Kesepian
+tags:
+---
+<<background "black_screen">>
+<<portrait "none">>
+narrator: Aku memilih untuk tetap hidup, namun dengan mengorbankan Kubis. Dunia terasa hampa dan sepi. Aku hidup, namun rasanya seperti sudah mati.
+narrator: BAD ENDING - Kesepian Abadi
+===
