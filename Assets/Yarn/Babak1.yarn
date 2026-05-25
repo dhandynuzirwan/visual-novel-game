@@ -104,7 +104,7 @@ narrator: Selada hidup 11 tahun sebelum tumor merenggutnya. Ibu hancur saat itu.
 narrator: Kubis adalah alasan Ibu kembali tersenyum. Namun takdir memang kejam; Ibu meninggal karena penyakit yang sama.
 narrator: Pesan terakhirnya singkat: Rawatlah Kubis sebaik mungkin. Kini, hanya Kubis yang menghubungkanku dengan kenangan tentang Ibu.
 
-// <<jump Babak4_Day2>>
+<<jump Babak4_Day2>>
 ===
 
 title: Babak4_Day2
@@ -127,10 +127,10 @@ Aloha: Semua orang selalu penuh keraguan di saat terakhir. Baiklah, aku beri sat
 narrator: Aku bimbang antara menelepon ayahku atau orang lain. Setelah pusing, akhirnya aku memutuskan menelepon Mantan Kekasihku.
 
 narrator: Apakah kamu akan menghilangkan ponsel dari dunia ini?
--> YA (Hubungi Mantan & Lanjut Cerita)
+-> YA
     <<jump Babak4_DuniaHening>>
--> TIDAK (Transaksi Batal)
-    <<jump Ending_Netral>>
+-> TIDAK
+    // <<jump Ending_Netral>>
 ===
 title: Babak4_DuniaHening
 tags:
@@ -236,13 +236,13 @@ Aloha: Pikirkanlah, hidupmu yang nyata atau gambar bergerak yang palsu?
 <<portrait "none">>
 narrator: Jika film lenyap, maka caraku bermimpi juga akan ikut terkubur. Apakah kamu bersetuju untuk menghapus film?
 
--> YA (Hapus Film demi sisa hari)
+-> YA
     <<portrait "mc_default">>
     MC: Baiklah aku setuju menghapus film, tapi aku diberikan kesempatan terakhir kan untuk menonton film? Seperti sebelumnya.
     <<portrait "aloha_default">>
     Aloha: Yaa tentu saja.
-    <<jump Babak5_TokoDvd>>
--> TIDAK (Pertahankan Film)
-    <<jump Ending_Alternatif>>
+    // <<jump Babak5_TokoDvd>>
+-> TIDAK
+    // <<jump Ending_Alternatif>>
 ===
 

@@ -1027,7 +1027,7 @@ MonoBehaviour:
   dialogueText: {fileID: 913109278}
   dialoguePanel: {fileID: 788686388}
   choicePanel: {fileID: 2117575872}
-  choiceButtonPrefab: {fileID: 1825233740}
+  choiceButtonPrefab: {fileID: 0}
   characterPortrait: {fileID: 99629916}
   backgroundImage: {fileID: 2074088341}
   textSpeed: 0.03
@@ -1111,15 +1111,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0cd0d0412ea34813959f8ddaf02a6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: YarnSpinner.Unity::Yarn.Unity.OptionsPresenter
-  canvasGroup: {fileID: 0}
-  optionViewPrefab: {fileID: 1825233741}
+  canvasGroup: {fileID: 2117575876}
+  optionViewPrefab: {fileID: 6741347017654616387, guid: 767238b7131a0dd40990a438f62e7636, type: 3}
   showsLastLine: 0
   lastLineText: {fileID: 0}
   lastLineContainer: {fileID: 0}
   lastLineCharacterNameText: {fileID: 0}
   lastLineCharacterNameContainer: {fileID: 0}
   showUnavailableOptions: 0
-  useFadeEffect: 1
+  useFadeEffect: 0
   fadeUpDuration: 0.25
   fadeDownDuration: 0.1
 --- !u!114 &922013983
@@ -1272,8 +1272,8 @@ RectTransform:
   - {fileID: 2074088343}
   - {fileID: 99629914}
   - {fileID: 788686389}
-  - {fileID: 2117575873}
   - {fileID: 1409735559}
+  - {fileID: 2117575873}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1423,22 +1423,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1825233740 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7001648831370647357, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-  m_PrefabInstance: {fileID: 4081023560696932803}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1825233741 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5713850348030608373, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-  m_PrefabInstance: {fileID: 4081023560696932803}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825233740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72af21cd06074f41a2537a712c24213, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: YarnSpinner.Unity::Yarn.Unity.OptionItem
 --- !u!1 &2074088340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,13 +1509,16 @@ GameObject:
   - component: {fileID: 2117575873}
   - component: {fileID: 2117575875}
   - component: {fileID: 2117575874}
+  - component: {fileID: 2117575878}
+  - component: {fileID: 2117575877}
+  - component: {fileID: 2117575876}
   m_Layer: 5
   m_Name: ChoicePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2117575873
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1564,8 +1551,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1589,67 +1576,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117575872}
   m_CullTransparentMesh: 1
---- !u!1001 &4081023560696932803
-PrefabInstance:
+--- !u!225 &2117575876
+CanvasGroup:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 525.62054
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 172.725
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757781640741824496, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001648831370647357, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_Name
-      value: Choice Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001648831370647357, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f5deb5cb12a55c7469b1235290a20102, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117575872}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &2117575877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117575872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &2117575878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117575872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1657,6 +1635,5 @@ SceneRoots:
   - {fileID: 23499576}
   - {fileID: 1477313699}
   - {fileID: 922013981}
-  - {fileID: 4081023560696932803}
   - {fileID: 1759372327}
   - {fileID: 405162052}
